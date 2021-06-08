@@ -1,22 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://haidalu.github.io</id>
-    <title>ChezEliooreux</title>
-    <updated>2021-06-08T09:48:28.410Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://haidalu.github.io"/>
-    <link rel="self" href="https://haidalu.github.io/atom.xml"/>
-    <subtitle>Welcome to chezEliooreux</subtitle>
-    <logo>https://haidalu.github.io/images/avatar.png</logo>
-    <icon>https://haidalu.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, ChezEliooreux</rights>
-    <entry>
-        <title type="html"><![CDATA[Lecture 3. Reference, Recursion, and Lists]]></title>
-        <id>https://haidalu.github.io/post/lecture-3-reference-recursion-and-lists/</id>
-        <link href="https://haidalu.github.io/post/lecture-3-reference-recursion-and-lists/">
-        </link>
-        <updated>2021-06-08T09:43:39.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="reference-recursion-and-lists">Reference, Recursion, and Lists</h1>
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lecture 3. Reference, Recursion, and Lists | ChezEliooreux</title>
+<link rel="shortcut icon" href="https://haidalu.github.io/favicon.ico?v=1623145500728">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://haidalu.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="Lecture 3. Reference, Recursion, and Lists | ChezEliooreux - Atom Feed" href="https://haidalu.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="Reference, Recursion, and Lists
+
+Summary
+
+
+There are 9 types of variable in Java:
+
+8 primitive types(byte, short, int, l..." />
+    <meta name="keywords" content="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://haidalu.github.io">
+  <img class="avatar" src="https://haidalu.github.io/images/avatar.png?v=1623145500728" alt="">
+  </a>
+  <h1 class="site-title">
+    ChezEliooreux
+  </h1>
+  <p class="site-description">
+    Welcome to chezEliooreux
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          Homepage
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          Archive
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          Tags
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          About
+        </a>
+      
+    
+      
+        <a href="https://haidalu.github.io/post/426-tencent-interview-summary" class="menu">
+          Coding～
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              Lecture 3. Reference, Recursion, and Lists
+            </h2>
+            <div class="post-info">
+              <span>
+                2021-06-08
+              </span>
+              <span>
+                7 min read
+              </span>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h1 id="reference-recursion-and-lists">Reference, Recursion, and Lists</h1>
 <blockquote>
 <p>Summary</p>
 </blockquote>
@@ -320,20 +405,127 @@ each element incremented by x.</li>
 
     }
 </code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[4.26 Tencent Interview Summary]]></title>
-        <id>https://haidalu.github.io/post/426-tencent-interview-summary/</id>
-        <link href="https://haidalu.github.io/post/426-tencent-interview-summary/">
-        </link>
-        <updated>2021-04-28T03:18:58.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="tencent-interview-for-front-end">Tencent Interview for front-end</h1>
-<blockquote>
-<p>简历涉及<strong>安全</strong>相关，前端相关经验缺乏。导致hr对安全考察更多，对VPN项目更感兴趣，对宠物社交app🈚️兴趣</p>
-</blockquote>
-<h3 id="tcp的连接与断开过程-三次握手与四次挥手">TCP的连接与断开过程 - 三次握手与四次挥手</h3>
-<h3 id="web涉及到的通信协议及其相应的端口">Web涉及到的通信协议及其相应的端口</h3>
-]]></content>
-    </entry>
-</feed>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li><a href="#reference-recursion-and-lists">Reference, Recursion, and Lists</a>
+<ul>
+<li><a href="#1-%E5%9F%BA%E7%A1%80%E7%B1%BB%E5%9E%8Bprimitive-type%E5%92%8C%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B-reference-type">1. 基础类型Primitive Type和引用类型 Reference  Type</a>
+<ul>
+<li><a href="#class-instantiations">Class Instantiations</a></li>
+<li><a href="#reference-type-variable-declarations-%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B%E5%8F%98%E9%87%8F%E5%A3%B0%E6%98%8E">Reference Type Variable Declarations 引用类型变量声明</a></li>
+<li></li>
+<li><a href="#reference-types-obey-the-golden-rule-of-equals">Reference Types Obey the Golden Rule of Equals</a></li>
+<li><a href="#the-golden-rule-of-equals-and-parameter-passing">The Golden Rule of Equals( and Parameter Passing)</a></li>
+</ul>
+</li>
+<li><a href="#2-%E5%AE%9E%E4%BE%8B%E5%8C%96%E6%95%B0%E7%BB%84declaration-instantiation-assignment">2. 实例化数组(Declaration instantiation assignment)</a></li>
+<li><a href="#3-introducing-intlists">3. Introducing IntLists</a>
+<ul>
+<li><a href="#31-%E9%93%BE%E8%A1%A8%E5%88%9B%E5%BB%BA">3.1 链表创建</a></li>
+<li><a href="#2-get-size-%E6%96%B9%E6%B3%95">2. Get size 方法</a></li>
+<li><a href="#3-getint-i%E6%96%B9%E6%B3%95%E8%BF%94%E5%9B%9E%E5%88%97%E8%A1%A8%E9%87%8C%E7%AC%ACi%E4%B8%AAitem">3. Get(int i)方法返回列表里第i个item</a></li>
+<li><a href="#4-extraexercise-%E4%BD%BF%E9%93%BE%E8%A1%A8%E6%AF%8F%E9%A1%B9firstn">4. ExtraExercise 使链表每项first+n:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://haidalu.github.io/post/426-tencent-interview-summary/">
+              <h3 class="post-title">
+                4.26 Tencent Interview Summary
+              </h3>
+            </a>
+          </div>
+        
+
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'c0ed3c92b9bc0b7a32bc',
+    clientSecret: '03921e2b16cbf453cc137dc327f8b2e5a3aaea78',
+    repo: 'HaidaLu.github.io',
+    owner: 'HaidaLu',
+    admin: ['HaidaLu'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://haidalu.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
