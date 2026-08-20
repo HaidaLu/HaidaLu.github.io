@@ -1,0 +1,11 @@
+baseURL = 'https://haidalu.github.io/'
+locale = 'en-us'
+title = "Haida's Blog"
+theme = 'hugo-theme-stack'
+
+[pagination]
+    pagerSize = 10
+
+[permalinks]
+    post = "/p/:slug/"
+    page = "/:slug/"
